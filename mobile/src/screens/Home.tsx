@@ -69,7 +69,7 @@ export function Home() {
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{ paddingBottom: 100 }}
       >
-        { summary &&
+        { summary && 
           <View className="flex-row flex-wrap">
           {
             datesFromYearStart.map((date) => {
@@ -95,4 +95,4 @@ export function Home() {
       </ScrollView>
     </View>
   );
-}
+} 
